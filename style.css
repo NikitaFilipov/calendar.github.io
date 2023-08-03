@@ -1,0 +1,36 @@
+#parent {
+	text-align: center;
+}
+#calendar {
+	display: inline-block;
+}
+#calendar td, #calendar th {
+	padding: 5px 12px;
+	border: 1px solid black;
+	text-align: center;
+}
+#parent .info{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#calendar a {
+	color: blue;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	transition-duration:  0.5s;
+}
+.nav{
+	display: flex;
+	justify-content: center;
+		
+	
+}
+#calendar a:hover{
+	color: red;
+	transition-duration: 0.5s;
+	font-size: 35px;
+}
